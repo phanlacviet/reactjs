@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Phanlacviet_func from './components/Phanlacviet_func';
-import Phanlacviet_class from './components/Phanlacviet_class'
+import Phanlacviet_class from './components/phanlacviet_class';
 function App() {
   return (
     <>
