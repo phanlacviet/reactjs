@@ -32,20 +32,20 @@ export default function PlvTaskAddorEdit({renderPlvTask,renderPlvIsAddOrEdit,plv
         <form>
             <div>
                 <div className="input-group mb-3">
-                <span className="input-group-text" id="basic-addon1">Task ID:</span>
-                <input name='plv_taskId' value={renderPlvTask.plv_taskId} onChange={plvhandlechange} type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
+                <span className="input-group-text" id="basic-addon2">Task ID:</span>
+                <input name='plv_taskId' value={plvtask.plv_taskId} onChange={plvhandlechange} type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
                 </div>
             </div>
             <div>
                 <div className="input-group mb-3">
-                <span className="input-group-text" id="basic-addon1">Task Name:</span>
-                <input name='plv_taskName' value={renderPlvTask.plv_taskName} onChange={plvhandlechange} type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
+                <span className="input-group-text" id="basic-addon3">Task Name:</span>
+                <input name='plv_taskName' value={plvtask.plv_taskName} onChange={plvhandlechange} type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
                 </div>
             </div>
             <div>
                 <div className="input-group mb-3">
                 <span className="input-group-text" id="basic-addon1">Task Level:</span>
-                <select name='plv_level' value={renderPlvTask.plv_level} onChange={plvhandlechange}>
+                <select name='plv_level' value={plvtask.plv_level} onChange={plvhandlechange}>
                     <option value={'Small'}>Small</option>
                     <option value={'Medium'}>Medium</option>
                     <option value={'High'}>High</option>

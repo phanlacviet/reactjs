@@ -5,7 +5,7 @@ export default function PlvListTask({ renderPlvListTasks, onPlvTaskdelete,onPlvT
     //hàm xử lí khi sửa
     const plvhandleEdit = (param) => {
         console.log("click edit:", param);
-        onPlvTaskEdit(param)//đẩy lên app thông qua props(onPlvTaskEdit)
+        onPlvTaskEdit(param)
     }
     const plvhandleDelete = (param)=>{
         if(window.confirm('bạn có chắc chắn muốn xóa không')){

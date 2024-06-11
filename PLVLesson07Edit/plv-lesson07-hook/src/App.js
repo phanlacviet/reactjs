@@ -13,6 +13,7 @@ function App() {
     { plv_taskId: 4, plv_taskName: "Lập trình Fullstack (PHP, Java, NetCore)", plv_level: "Small" },
   ];
   console.log(plv_listTasks);
+
   const [plvListTasks, setPlvListTasks] = useState(plv_listTasks);
   useEffect(() => {
     console.log("use:", plvListTasks);
